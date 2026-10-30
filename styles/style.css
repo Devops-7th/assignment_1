@@ -322,3 +322,13 @@ footer {
   font-size: 1.8rem;
 }
 
+@media (max-width: 600px) {
+  .deals-page .special-banner {
+    padding: 20px 12px;
+  }
+  .deals-page .deal-price {
+    font-size: 1.2rem;
+  }
+}
+
+
