@@ -272,3 +272,63 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+
+/* ===== Deals Page (Member 2 - Muhammad Abdullah) ===== */
+.deals-page .special-banner {
+  background: linear-gradient(135deg, var(--maroon), var(--maroon-dark));
+  color: #fff;
+  text-align: center;
+  padding: 26px 18px;
+  border-radius: var(--radius);
+  margin-bottom: 28px;
+}
+
+.deals-page .special-banner h2 {
+  color: #fff;
+  margin: 10px 0 4px;
+}
+
+.deals-page .badge {
+  display: inline-block;
+  background: var(--gold);
+  color: var(--maroon-dark);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 3px 12px;
+  border-radius: 999px;
+}
+
+.deals-page .card {
+  border-top: 5px solid var(--maroon);
+}
+
+.deals-page .card h3 {
+  color: var(--maroon);
+  margin: 10px 0 6px;
+}
+
+.deals-page .deal-price {
+  margin-top: 10px;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--maroon);
+}
+
+.deals-page .special-banner .deal-price {
+  color: var(--gold);
+  font-size: 1.8rem;
+}
+
+@media (max-width: 600px) {
+  .deals-page .special-banner {
+    padding: 20px 12px;
+  }
+  .deals-page .deal-price {
+    font-size: 1.2rem;
+  }
+}
+
+
