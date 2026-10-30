@@ -461,3 +461,11 @@ footer {
 .feedback-page .feedback-form button:hover {
   background: var(--maroon-dark);
 }
+
+@media (max-width: 600px) {
+  .feedback-page .feedback-form {
+    max-width: 100%;
+    padding: 16px;
+  }
+}
+
