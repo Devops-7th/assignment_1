@@ -386,3 +386,8 @@ footer {
 }
 
 
+@media (max-width: 600px) {
+  .order-page .steps li {
+    padding-left: 54px;
+  }
+}
